@@ -10,6 +10,7 @@ A simple login form using the Formik library. This exercise targets a few skills
 
 - Using the "useFormik" hook
 - Validate input data
+- Use regular expressions
 
 ## Install
 

@@ -4,6 +4,8 @@
 
 This repo contains the Formik exercise from my MIT Full Stack development course. More information on Formik **[here](https://formik.org/)**.
 
+<img src="https://github.com/Mike-Veilleux/Todos/blob/main/src/assets/ReactTodoExercise.png">
+
 ## Description
 
 A simple login form using the Formik library. This exercise targets a few skills building
@@ -16,7 +18,7 @@ A simple login form using the Formik library. This exercise targets a few skills
 
 Clone or download this repo, go to the project folder and run the following commands from a terminal window:
 
-Install dependency
+Install dependencies
 
 ```
 npm install

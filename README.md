@@ -6,6 +6,7 @@ This repo contains the Formik exercise from my MIT Full Stack development course
 
 <img src="https://github.com/Mike-Veilleux/Formik-exercise/tree/main/src/assets/LoginExercise.png">
 
+
 ## Description
 
 A simple login form using the Formik library. This exercise targets a few skills building

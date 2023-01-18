@@ -1,5 +1,5 @@
 import React from "react";
-import { useFormik } from "formik";
+import {useFormik} from "formik";
 
 function App() {
   const formik = useFormik({
@@ -7,10 +7,10 @@ function App() {
       email: "",
       password: "",
     },
-    onSubmit: (values, { resetForm }) => {
+    onSubmit: (values, {resetForm}) => {
       console.log("Form: ", values);
       alert(`Login Successful! \nWelcome ${values.email}`);
-      resetForm({ values: "" });
+      resetForm({values: ""});
     },
     validate: (values) => {
       let errors = {};
@@ -30,7 +30,7 @@ function App() {
     <div className="app d-flex  align-items-center justify-content-center  mt-5">
       <div
         className="d-flex flex-column border rounded-3 p-3 shadow"
-        style={{ width: "25rem" }}
+        style={{width: "25rem"}}
       >
         <h2 className="text-center">Login</h2>
         <form onSubmit={formik.handleSubmit}>
@@ -47,7 +47,7 @@ function App() {
           {formik.errors.email ? (
             <div
               id="emailError"
-              style={{ color: "red" }}
+              style={{color: "red"}}
             >
               {formik.errors.email}
             </div>
@@ -66,7 +66,7 @@ function App() {
           {formik.errors.password ? (
             <div
               id="pswError"
-              style={{ color: "red" }}
+              style={{color: "red"}}
             >
               {formik.errors.password}
             </div>

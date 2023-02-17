@@ -4,6 +4,8 @@
 
 This repo contains the Formik exercise from my MIT Full Stack development course. More information on Formik **[here](https://formik.org/)**.
 
+Live demo [here](https://mike-veilleux.github.io/Formik-exercise/)
+
 <img src="https://github.com/Mike-Veilleux/Formik-exercise/blob/main/src/assets/LoginExercise.png">
 
 ## Description
